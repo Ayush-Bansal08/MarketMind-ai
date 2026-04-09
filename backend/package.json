@@ -1,0 +1,19 @@
+{
+  "name": "marketmind-ai",
+  "version": "1.0.0",
+  "description": "AI that analyses the market smartly",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Ayush Bansal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  }
+}
