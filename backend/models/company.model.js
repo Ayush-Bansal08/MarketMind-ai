@@ -9,14 +9,14 @@ const companySchema = new mongoose.Schema({
         type : String,
         required: true
     },
-    embeddings : {
+    embedding : {
         type : [Number],
         Default : []
     },
     industry : {
         type : String
     },
-    tage: {
+    tag: {
         type : [String]
     }
 
